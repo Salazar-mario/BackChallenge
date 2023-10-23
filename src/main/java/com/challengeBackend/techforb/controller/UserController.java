@@ -32,7 +32,6 @@ public class UserController {
         Optional<User> userOptional = userService.findById(id);
 
         if (userOptional.isEmpty()) {
-            throw new UsuarioNoExisteException(id);
         }
 
         User user = userOptional.get();

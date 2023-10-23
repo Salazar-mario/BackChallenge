@@ -12,10 +12,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- *
- * @author mario
- */
 @RestController
 @RequestMapping("/menu")
 @CrossOrigin(origins = "https://challenge-front-git-main-salazar-mario.vercel.app")

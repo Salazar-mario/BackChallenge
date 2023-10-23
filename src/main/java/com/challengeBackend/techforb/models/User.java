@@ -127,15 +127,6 @@ private Set<Transaccion> transacciones = new HashSet<>();
         tarjeta.setTitular(this.nombre + " " + this.apellido);
     }
 
-    //public void addTransaccionSaliente(Transaccion transaccion) {
-      //  this.transacciones.add(transaccion);
-        //transaccion.setTipo(TipoTransaccion.EGRESO);
-    //}
-
-    //public void addTransaccionEntrantes(Transaccion transaccion) {
-      //  this.transacciones.add(transaccion);
-        //transaccion.setTipo(TipoTransaccion.INGRESO);
-    //}
 
     public void addTransaccionSaliente(Transaccion transaccion) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody

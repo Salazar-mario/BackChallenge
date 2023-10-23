@@ -30,14 +30,6 @@ public class TransaccionDTO {
         this.monto = monto;
     }
 
-   // public TipoTransaccion getTipo() {
-    //    return tipo;
-    //}
-
-    //public void setTipo(TipoTransaccion tipo) {
-      //  this.tipo = tipo;
-    //}
-
     public String getDescripcion() {
         return descripcion;
     }

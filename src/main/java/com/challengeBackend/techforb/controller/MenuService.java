@@ -7,10 +7,7 @@ package com.challengeBackend.techforb.controller;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
-/**
- *
- * @author mario
- */
+
 @Service
 public class MenuService {
 

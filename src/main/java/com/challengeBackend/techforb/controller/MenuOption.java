@@ -4,10 +4,6 @@
  */
 package com.challengeBackend.techforb.controller;
 
-/**
- *
- * @author mario
- */
 class MenuOption {
     
 }
