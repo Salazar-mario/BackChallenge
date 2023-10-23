@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = {"https://challengebackend.onrender.com"})
+@CrossOrigin(origins = {"https://challenge-front-git-main-salazar-mario.vercel.app"})
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEnconder;
