@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/menu")
-@CrossOrigin(origins = "https://challenge-front-git-main-salazar-mario.vercel.app")
+@CrossOrigin(origins = {"https://challenge-front-git-main-salazar-mario.vercel.app","http://localhost:4200"})
 public class Menu {
 
   @Autowired
